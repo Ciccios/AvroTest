@@ -4,10 +4,6 @@
     "name": "User",
     "fields": [
         {
-            "name":"names",
-            "type" : {"type":"map", "values" : "string"}
-        },
-        {
             "name": "name",
             "type": "string"
         },

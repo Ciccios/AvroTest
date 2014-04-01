@@ -1,0 +1,23 @@
+{
+    "namespace": "com.nice.model",
+    "type": "record",
+    "name": "User",
+    "fields": [
+        {
+            "name":"names",
+            "type" : {"type":"map", "values" : "string"}
+        },
+        {
+            "name": "name",
+            "type": "string"
+        },
+        {
+            "name": "favorite_number",
+            "type": ["int", "null"]
+        },
+        {
+            "name": "favorite_color",
+            "type": ["string", "null"]
+        }
+    ]
+}
